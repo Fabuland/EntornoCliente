@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <script src="prueba.js" defer></script>
+    <title>Rol</title>
+</head>
+<body>
+    <div id="spinner" class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+    </div>
+    <div>
+        <form id="formulario" action="">
+            <div>
+                <label>Título</label>
+                <input type="text" id="titulo" name="titulo">
+            </div>
+            <div>
+                <label>Género</label>
+                <select name="genero" id="genero">
+                    <option value="fantasia">fantasia</option>
+                    <option value="sci-fi">sci-fi</option>
+                    <option value="estrategia">estrategia</option>
+                </select>
+                <br>
+                <label for="">Editorial Chaosium?</label>
+                <input type="checkbox" name="editorial" id="editorial">
+                <br>
+                <label for="">Creador</label>
+                <textarea name="creador" id="creador" cols="50" rows="4"></textarea>
+            </div>
+            <input type="submit" id="boton" value="enviar" />
+        </form>
+    </div>
+    <div id="resultado">
+
+    </div>
+
+</body>
+
+</html>
